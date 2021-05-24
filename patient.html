@@ -1,0 +1,104 @@
+<html>
+<head>
+<title>Paitient Registration Form</title>
+<style>
+body{
+	background-image:url('txt1.jpg');
+	background-size:1800px;
+	background-position:left top;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+}
+</style>
+</head>
+<h1  align="center" style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:25;"><b>Patient Registration Form<b></h1>
+<body>
+<form>
+<table border=2 align="center" style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:18px;">
+<tr>
+<td width="160" align="center"><strong><u><a href="patient.html" style="text-decoration:none; color:#F60;">Paitient</a></u></strong></td>
+<td width="160" align="center"><strong><u><a href="Staff.html" style="text-decoration:none; color:#F60;">Staff</a></u></strong></td>
+<td width="160" align="center"><strong><u><a href="Hospital.html" style="text-decoration:none; color:#F60;">Hospital</a></u></strong></td>
+<td width="160" align="center"><strong><u><a href="home.html" style="text-decoration:none; color:#F60;">Logout</a></u></strong></td>
+</tr>
+</table><hr><br>
+<table  border=2 align="center" style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:14px;">
+<tr>
+<td width="112" height="35" align="center">Name</td>
+<td width="387"><input type="text" size=35 >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td width="112" align="center">Father Name</td>
+<td width="387"><input type="text"size=35>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+</tr>
+<tr>
+<td width="160" height="73" align="center">Adress 1</td>
+<td><textarea nsme="adrress" rows="3" cols="35"> Enter Address Here.</textarea></td>
+<td width="160" align="center">Adress 2</td>
+<td><textarea nsme="adrress" rows="3" cols="35"> Enter Address Here.</textarea></td>
+</tr>
+<tr>
+<td width="112" height="39" align="center">DOB</td>
+<td width="387" ><input type="text" value=" mm/dd/yyyy"size=30>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td width="112" align="center">Admission Date</td>
+<td width="387" ><input type="text" value=" mm/dd/yyyy"size=30>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+</tr>
+<tr>
+<td height="36" align="center">City</td>
+<td><select name="cities">
+    <option value="Mumbai">Mumbai &nbsp;&nbsp;&nbsp;&nbsp;</option>
+    <option value="Delhi">Delhi &nbsp;&nbsp;&nbsp;&nbsp;</option>
+    <option value="Pune">Pune &nbsp;&nbsp;&nbsp;&nbsp;</option>
+    <option value="Nashik">Nashik &nbsp;&nbsp;&nbsp;&nbsp;</option>
+  </select></td>
+ <td align="center">State</td>
+<td><select name="states">
+    <option value="Ahmednagar">Ahmednagar &nbsp;&nbsp;&nbsp;&nbsp;</option>
+    <option value="Satara">Satara &nbsp;&nbsp;&nbsp;&nbsp;</option>
+    <option value="Sangli">Sangli &nbsp;&nbsp;&nbsp;&nbsp;</option>
+    <option value="Kolhapur">Kolhapur &nbsp;&nbsp;&nbsp;&nbsp;</option>
+  </select></td>
+</tr>
+<tr>
+<td height="40" align="center">Country</td>
+<td><select name="country">
+    <option value="India">India &nbsp;&nbsp;&nbsp;&nbsp;</option>
+    <option value="America">America &nbsp;&nbsp;&nbsp;&nbsp;</option>
+    <option value="Afganistan">Afganistan &nbsp;&nbsp;&nbsp;&nbsp;</option>
+    <option value="China">China &nbsp;&nbsp;&nbsp;&nbsp;</option>
+    <option value="Korea">Korea &nbsp;&nbsp;&nbsp;&nbsp;</option>
+  </select></td>
+<td align="center">Nationality</td>
+<td><select name="natinality">
+    <option value="National(Indian)">National(Indian)&nbsp;&nbsp;&nbsp;&nbsp;</option>
+    <option value="International">International&nbsp;&nbsp;&nbsp;&nbsp;</option>
+</select>
+</td>
+  </tr>
+ <tr>
+ <td height="40" align="center">Gender</td>
+  <td><input type="radio" name="gender" value="male"> Male
+  <input type="radio" name="gender" value="female"> Female
+  <input type="radio" name="gender" value="other"> Other</td>
+  
+ <td height="40" align="center">Disease</td>
+ <td><input type="checkbox"  value="co">Corona(Covid-19)
+  <input type="checkbox"  value="nim">Nimonia
+  <input type="checkbox"  value="ma">Maleria
+ </td>
+ </tr>
+ <tr>
+  <td height="40" align="center">Photo</td>
+  <td><button type="button" value="Browse...">Browse...</button>&nbsp;&nbsp;No file selected.</td>
+ </tr>
+ <tr>
+   <td height="40" align="center">Mobile No.</td>
+   <td><input type="tel" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"></td>
+ </tr>
+ <tr>
+ <td colspan="4" align="center">
+ <button type="button" value="Submit" style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:18px">Submit</button>
+ </td>
+ </tr>
+</table>
+</form>
+</body>
+</html>

@@ -1,0 +1,44 @@
+.slider{
+	width:1720px;
+	height:720px;
+	background:url(c4.jpg);
+	background-size:1800px;
+	background-position:center;
+	margin:100px auto;
+	animation:slide 50s infinite;
+	margin-top:20px;
+	
+}
+@keyframes slide{
+	5%
+	{
+		background:url(c2.jpg);
+		background-size:100%;
+		background-position:center;
+	}
+	10%
+	{
+		background:url(c3.jpg);
+		background-size:100%;
+		background-position:center;
+	}
+	15%
+	{
+		background:url(c4.jpg);
+		background-size:100%;
+		background-position:center;
+	}
+	20%
+	{
+		background:url(c6.jpg);
+		background-size:100%;
+		background-position:center;
+	}
+	23%
+	{
+		background:url(c7.jpg);
+		background-size:100%;
+		background-position:center;
+	}
+	
+}

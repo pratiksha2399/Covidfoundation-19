@@ -1,0 +1,126 @@
+<html>
+<head>
+<title>Staff Registration Form</title>
+<style>
+body{
+	background-image:url('txt1.jpg');
+	background-size:1800px;
+	background-position:left top;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+}
+</style>
+</head>
+<h1  align="center" style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:25;"><b>Staff Registration Form<b></h1>
+<body>
+<form>
+<table border=2 align="center" style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:18px;">
+<tr>
+<tr>
+<td width="160" align="center"><strong><u><a href="patient.html" style="text-decoration:none; color:#F60;">Paitient</a></u></strong></td>
+<td width="160" align="center"><strong><u><a href="Staff.html" style="text-decoration:none; color:#F60;">Staff</a></u></strong></td>
+<td width="160" align="center"><strong><u><a href="Hospital.html" style="text-decoration:none; color:#F60;">Hospital</a></u></strong></td>
+<td width="160" align="center"><strong><u><a href="home.html" style="text-decoration:none; color:#F60;">Logout</a></u></strong></td>
+</tr>
+</table><br>
+<table  border=2 align="center" style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:14px;">
+<tr>
+<td width="180" height="40" align="center">Full Name</td>
+<td width="291"><input type="text" size=35 >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td width="184" align="center">Middle Name</td>
+<td width="315"><input type="text"size=35>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td width="169" align="center">Last Name</td>
+<td width="302"><input type="text"size=35>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+</tr>
+<tr>
+<td height="73" align="center"><div align="center">Current</div></td>
+<td colspan="2"><textarea nsme="adrress" rows="3" cols="35"> Enter Address Here.</textarea></td>
+<td align="center">Permanent Address</td>
+<td width="267" colspan="2"><textarea nsme="adrress" rows="3" cols="35"> Enter Address Here.</textarea></td>
+</tr>
+<tr>
+ <td align="center">State</td>
+<td><select name="states">
+    <option value="Ahmednagar">Ahmednagar &nbsp;&nbsp;&nbsp;&nbsp;</option>
+    <option value="Satara">Satara &nbsp;&nbsp;&nbsp;&nbsp;</option>
+    <option value="Sangli">Sangli &nbsp;&nbsp;&nbsp;&nbsp;</option>
+    <option value="Kolhapur">Kolhapur &nbsp;&nbsp;&nbsp;&nbsp;</option>
+  </select></td>
+   <td align="center">District</td>
+<td><select name="district">
+    <option value="Hingoli">Ahmednagar &nbsp;&nbsp;&nbsp;&nbsp;</option>
+    <option value="Satara">Satara &nbsp;&nbsp;&nbsp;&nbsp;</option>
+    <option value="Buldhana">Buldhana &nbsp;&nbsp;&nbsp;&nbsp;</option>
+    <option value="Parbhani">Parbhani &nbsp;&nbsp;&nbsp;&nbsp;</option>
+  </select></td>
+ <td height="36" align="center">City</td>
+<td><select name="cities">
+    <option value="Mumbai">Mumbai &nbsp;&nbsp;&nbsp;&nbsp;</option>
+    <option value="Delhi">Delhi &nbsp;&nbsp;&nbsp;&nbsp;</option>
+    <option value="Pune">Pune &nbsp;&nbsp;&nbsp;&nbsp;</option>
+    <option value="Nashik">Nashik &nbsp;&nbsp;&nbsp;&nbsp;</option>
+  </select></td>
+  </tr>
+  <tr>
+  <td height="40" align="center">Gender</td>
+  <td><input type="radio" name="gender" value="male"> Male
+  <input type="radio" name="gender" value="female"> Female
+  <input type="radio" name="gender" value="other"> Other</td>
+<td align="center">Nationality</td>
+<td><select name="natinality">
+    <option value="National(Indian)">National(Indian)&nbsp;&nbsp;&nbsp;&nbsp;</option>
+    <option value="International">International&nbsp;&nbsp;&nbsp;&nbsp;</option>
+</select>
+</td>
+  <td height="40" align="center">Photo</td>
+  <td><button type="button" value="Browse...">Browse...</button>&nbsp;&nbsp;No file selected.</td>
+  </tr>
+  <tr>
+    <td height="40" align="center">Mobile No.</td>
+   <td><input type="tel" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"></td>
+  </tr>
+    <tr>
+    <td height="40" align="center">Religion</td>
+   <td colspan="2"><select name="religion">
+    <option value="Hindu">Hindu &nbsp;&nbsp;&nbsp;&nbsp;</option>
+    <option value="Muslim">Muslim &nbsp;&nbsp;&nbsp;&nbsp;</option>
+    <option value="Sikh">Sikh &nbsp;&nbsp;&nbsp;&nbsp;</option>
+        <option value="Isai">Isai &nbsp;&nbsp;&nbsp;&nbsp;</option>
+  </select></td>
+   <td height="40" align="center" >Hospital Issued</td>
+<td colspan="2"><select name="hobby">
+    <option value="ash">Ashirwad Hospital &nbsp;&nbsp;&nbsp;&nbsp;</option>
+    <option value="c1">City Care Hospital&nbsp;&nbsp;&nbsp;&nbsp;</option>
+    <option value="c2">City Hospital &nbsp;&nbsp;&nbsp;&nbsp;</option>
+    <option value="phonix">Phonix Hospital&nbsp;&nbsp;&nbsp;&nbsp;</option>
+    <option value="ayu">Ayush Hospital&nbsp;&nbsp;&nbsp;&nbsp;</option>
+  </select></td></tr>
+  <tr>
+  <tr>
+<td width="112" height="39" align="center">Joining Date</td>
+<td width="387" colspan="2"><input type="text" value=" mm/dd/yyyy"size=30>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td width="112" align="center">DOB</td>
+<td width="387" colspan="2"><input type="text" value=" mm/dd/yyyy"size=30>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+</tr>
+<tr>
+<td height="36" align="center">Qualification</td>
+<td><select name="qualification">
+    <option value="mbbs">MBBS &nbsp;&nbsp;&nbsp;&nbsp;</option>
+    <option value="bams">BAMS&nbsp;&nbsp;&nbsp;&nbsp;</option>
+    <option value="bhms">BHMS &nbsp;&nbsp;&nbsp;&nbsp;</option>
+	<option value="bums">BUMS &nbsp;&nbsp;&nbsp;&nbsp;</option>
+  </select></td>
+  <td width="180" height="40" align="center">Salary</td>
+<td width="291"><input type="text" size=35 >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td width="180" height="40" align="center">Experience</td>
+<td width="291"><input type="text" size=35 >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+</tr>
+ <tr>
+ <td colspan="6" align="center">
+ <button type="button" value="Submit" style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:18px">Submit</button>
+ </td>
+  </tr>
+</table>
+</form>
+</body>
+</html>
